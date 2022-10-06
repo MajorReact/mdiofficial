@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add global styles with tailwind */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  font-family: Poppins, Helvetica, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply text-[#1f1f1f] tracking-wide bg-[#c4dfe4];
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply font-[Helvatica] text-4xl sm:text-5xl md:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl;
+  }
+
+  li {
+    @apply cursor-pointer;
+  }
+
+  button {
+    @apply rounded-t-xl shadow-xl bg-gradient-to-l from-[#55afaf] to-[#00d4ff] shadow-gray-300;
+  }
+}
