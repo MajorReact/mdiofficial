@@ -11,10 +11,16 @@
 - I learned a lot of new concepts, and gained more understanding in aspects like next-routing, hot-reload-features, server-side-rendering, static generation, accessible nextJS properties including Image, Link, etc.   
 - I am very passionate about the JavaScript ecosystem. Most of my contributions and reasearch are mainly around the JavaScript Programming Language.
 
-# Technologies adopted
-- TailwindCSS
-- NextJS
-- Vercel (Cloud hosting service)
+#### Top Technologies and Stack ⚡️
+
+![JavaScript](https://img.shields.io/static/v1?style=for-the-badge&message=JavaScript&color=222222&logo=JavaScript&logoColor=F7DF1E&label=) 
+
+![Next.js](https://img.shields.io/static/v1?style=for-the-badge&message=Tailwind.css&color=000000&logo=Tailwind.css&logoColor=FFFFFF&label=)
+
+![React](https://img.shields.io/static/v1?style=for-the-badge&message=React&color=222222&logo=React&logoColor=61DAFB&label=)  
+
+![Next.js](https://img.shields.io/static/v1?style=for-the-badge&message=Next.js&color=000000&logo=Next.js&logoColor=FFFFFF&label=)
+
 
 ### Project Features | Description
 - First ever copy (feat:functional NavBar - basic setup) was pushed to the "main" branch.
