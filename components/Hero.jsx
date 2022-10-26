@@ -9,10 +9,8 @@ const Hero = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm text-gray-600">
-            Welcome to my portfolio 👋
-          </p>
-          <h1 className="py-4 text-gray-700">My name is Nnamdi</h1>
+          <p className="uppercase text-sm text-gray-600">🌍 Hello World!</p>
+          <h1 className="py-4 text-gray-700">My name is Nnamdi 👋</h1>
           <Typewriter
             options={{
               strings: ["Pleased to meet you!"],
@@ -21,27 +19,31 @@ const Hero = () => {
             }}
             onInit={(typewriter) => {
               typewriter
-                .typeString("I am a Frontend Engineer!")
+                .typeString("I am a JavaScript Developer!")
                 .pauseFor(2500)
                 .deleteAll()
-                .typeString("a Technical Writer!")
+                .typeString("..a Frontend Engineer!")
+                .pauseFor(2500)
+                .deleteAll()
+                .typeString("..a Technical Writer!")
                 .pauseFor(2500)
                 .deleteAll()
                 .pauseFor(500)
-                .typeString("an Open Source Contibutor")
+                .typeString("..an Open Source Contibutor")
                 .pauseFor(2500)
+                .deleteAll()
+                .stop()
                 .start();
             }}
           />
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            I am dedicated to building responsive web applications using mainly
-            JavaScript.
+            ❤️ Built on NextJs framework ❤️
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
               href="https://github.com/MajorReact"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
@@ -50,16 +52,16 @@ const Hero = () => {
             <a
               href="https://www.linkedin.com/in/nnamdi-ogbangwo"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn />
               </div>
             </a>
-            <Link href="/#contact">
+            <Link href="mailto:nnamdiogbangwo@gmail.com">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <AiOutlineMail />
-              </div>
+             a </div>
             </Link>
           </div>
         </div>
