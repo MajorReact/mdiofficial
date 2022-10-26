@@ -166,20 +166,12 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <Link href="/#contact">
+                <Link href="mailto:nnamdiogbangwo">
                   <div
                     className="rounded-full p-3 cursor-pointer shadow-lg shadow-gray-400 hover:scale-105 ease-in duration-300"
                     onClick={() => setNav(!nav)}
                   >
-                    <FaEnvelope />
-                  </div>
-                </Link>
-                <Link href="/resume">
-                  <div
-                    className="rounded-full p-3 cursor-pointer shadow-lg shadow-gray-400 hover:scale-105 ease-in duration-300"
-                    onClick={() => setNav(!nav)}
-                  >
-                    <FaUser />
+                    <FaTwitter />
                   </div>
                 </Link>
               </div>
