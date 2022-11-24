@@ -1,13 +1,14 @@
 import Link from "next/link";
+import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import {
   FaBars,
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaUser,
-  FaEnvelope,
+  FaTwitter,
 } from "react-icons/fa";
+import TopBanner from "../public/assets/lorum-ipsum-logo.jpg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -43,7 +44,13 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
           <a>
-            <p className="uppercase text-blue-400 h-5 font-bold">mdi</p>
+            <Image
+              src={TopBanner}
+              alt="/"
+              width="50"
+              height="50"
+              className="cursor-pointer border-none rounded-full"
+            />
           </a>
         </Link>
         <div>
@@ -55,13 +62,19 @@ const Navbar = () => {
               <Link href="/#skills">Skills</Link>
             </li>
             <li className="text-sm uppercase ml-11 hover:border-b border-amber-500">
-              <Link href="/#projects">Projects</Link>
+              <a
+                href="https://www.github.com/MajorReact"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Projects
+              </a>
             </li>
             <li className="text-sm uppercase ml-11 hover:border-b border-amber-500">
               <Link href="https://mdi.hashnode.dev">Blog</Link>
             </li>
             <li className="text-sm uppercase ml-11 hover:border-b border-amber-500">
-              <Link href="/#contact">Hire me</Link>
+              <a href="mailto:nnamdiogbangwo@gmail.com">Hire me</a>
             </li>
           </ul>
           {/* Hamburger */}
@@ -87,14 +100,16 @@ const Navbar = () => {
           className={
             nav
               ? "top-0 fixed right-0 w-[75%] sm:w-[60%] md:w-[45%] h-[100%] bg-[#e5edf3] p-10 ease-in-out duration-300"
-              : "top-0 fixed right-[-100%] ease-in duration-300 bottom-0"
+              : "top-0 fixed right-[-1000%] ease-in duration-300 bottom-0"
           }
         >
           <div>
             <div className="flex items-center w-full justify-between">
               <Link href="/">
                 <a>
-                  <p className="uppercase text-blue-400 h-5 font-bold">mdi</p>
+                  <p className="uppercase text-blue-400 h-5 font-bold">
+                    Nnamdi
+                  </p>
                 </a>
               </Link>
               <div
@@ -106,42 +121,54 @@ const Navbar = () => {
             </div>
             <div className="border-b border-amber-500 my-4">
               <p className="md:w-[90%] py-4 w-[85%]">
-                My name is Nnamdi, a software engineer.
+                Physics whiz ❤️ web dev.
               </p>
             </div>
           </div>
           <div className="flex flex-col py-4">
             <ul className="uppercase">
-              <Link href="/">
+              <a href="/#about">
                 <li onClick={() => setNav(false)} className="text-sm py-4">
                   Home
                 </li>
-              </Link>
-              <Link href="/#about">
+              </a>
+              <a
+                href="https://mdi.hashnode.dev"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <li onClick={() => setNav(false)} className="text-sm py-4">
                   Blog
                 </li>
-              </Link>
+              </a>
               <Link href="/#skills">
                 <li onClick={() => setNav(false)} className="text-sm py-4">
                   Skills
                 </li>
               </Link>
-              <Link href="/#projects">
+              <a
+                href="https://www.github.com/MajorReact"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <li onClick={() => setNav(false)} className="text-sm py-4">
                   Work
                 </li>
-              </Link>
-              <Link href="https://www.linkedin.com/in/nnamdi-ogbangwo">
+              </a>
+              <a
+                href="https://www.linkedin.com/in/nnamdi-ogbangwo"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <li onClick={() => setNav(false)} className="text-sm py-4">
-                  Profile
+                  LinkedIn
                 </li>
-              </Link>
-              <Link href="/#contact">
+              </a>
+              <a href="mailto:nnamdiogbangwo@gmail.com">
                 <li onClick={() => setNav(false)} className="text-sm py-4">
                   Hire Me
                 </li>
-              </Link>
+              </a>
             </ul>
             <div className="pt-40">
               <p className="tracking-widest uppercase text-[#5651e5]">
