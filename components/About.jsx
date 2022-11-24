@@ -63,7 +63,7 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              LET'S CONNECT!
+              LET&rsquo;S CONNECT!
             </a>
           </p>
           <a

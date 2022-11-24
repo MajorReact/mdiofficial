@@ -127,11 +127,11 @@ const Navbar = () => {
           </div>
           <div className="flex flex-col py-4">
             <ul className="uppercase">
-              <a href="/#about">
+              <Link href="/">
                 <li onClick={() => setNav(false)} className="text-sm py-4">
                   Home
                 </li>
-              </a>
+              </Link>
               <a
                 href="https://mdi.hashnode.dev"
                 target="_blank"
