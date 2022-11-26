@@ -45,10 +45,16 @@ const About = () => {
             My name is Nnamdi, and I am a passionate Junior Web Engineer with
             proficiency in the JavaScript programming Language. I started out
             frontend heavy. Slowly but progressively ventured into backend
-            development with Node Express. I am a Competitive Programmer and
-            Clan member of Code Ninjas. Consistently striving to improve and
-            grow my skillset code by code. I also document my experiences to
-            inspire others by writing and sharing my challenges on Hashnode.
+            development with Node Express. Competitive Programmer and active
+            Clan member of CodeWars. Documenting My Experiences on{" "}
+            <a
+              href="http://mdi.hashnode.dev"
+              target="__blank"
+              className="text-amber-600"
+            >
+              Hashnode➚
+            </a>{" "}
+            .
           </p>
           <p className="py-2 text-gray-600">
             SOFT SKILLS: Problem solving || Fast Learner || Efficient
@@ -63,7 +69,7 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              LET&rsquo;S CONNECT!
+              LET&rsquo;S CONNECT!🤝🏾
             </a>
           </p>
           <a
@@ -72,7 +78,7 @@ const About = () => {
             rel="noopener noreferrer"
           >
             <p className="py-2 text-gray-600 underline cursor-pointer">
-              Peek a few of my latest projects.
+              Peek a few of my latest projects➚
             </p>
           </a>
         </div>

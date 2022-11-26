@@ -5,6 +5,8 @@
 /* Add global styles with tailwind */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
+/* bg-[#c4dfe4] */
+
 html {
   scroll-behavior: smooth;
   font-family: Poppins, Helvetica, sans-serif;
@@ -12,7 +14,7 @@ html {
 
 @layer base {
   body {
-    @apply text-[#1f1f1f] tracking-wide bg-[#c4dfe4];
+    @apply text-[#1f1f1f] tracking-wide bg-gradient-to-r from-[#E3FDF5] to-[#FFE6FA];
   }
 
   h1,

@@ -12,7 +12,7 @@ import TopBanner from "../public/assets/lorum-ipsum-logo.jpg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [navBg, setNavBg] = useState("#c4dfe4");
+  const [navBg, setNavBg] = useState("#E3FDF5");
   const [linkColor, setLinkColor] = useState("#1e2836");
   const [shadow, setShadow] = useState(false);
 
@@ -170,39 +170,6 @@ const Navbar = () => {
                 </li>
               </a>
             </ul>
-            <div className="pt-40">
-              <p className="tracking-widest uppercase text-[#5651e5]">
-                Available on:
-              </p>
-              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <a
-                  href="https://www.linkedin.com/in/nnamdi-ogbangwo"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <div className="rounded-full p-3 cursor-pointer shadow-lg shadow-gray-400 hover:scale-105 ease-in duration-300">
-                    <FaLinkedin />
-                  </div>
-                </a>
-                <a
-                  href="https://github.com/MajorReact"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <div className="rounded-full p-3 cursor-pointer shadow-lg shadow-gray-400 hover:scale-105 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-                </a>
-                <Link href="mailto:nnamdiogbangwo">
-                  <div
-                    className="rounded-full p-3 cursor-pointer shadow-lg shadow-gray-400 hover:scale-105 ease-in duration-300"
-                    onClick={() => setNav(!nav)}
-                  >
-                    <FaTwitter />
-                  </div>
-                </Link>
-              </div>
-            </div>
           </div>
         </div>
       </div>
