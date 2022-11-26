@@ -26,6 +26,12 @@
 3. Run `npm run dev` or `yarn run dev`
 4. Make your changes
 
+#### Guides || Resources
+
+How to setup prettier formatter [See How](https://mdi.hashnode.dev/how-to-setup-prettier-formatter)
+
+This documentation will frequently be updated.
+
 #### Deploy your own
 
 First, run the development server:
