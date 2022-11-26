@@ -7,6 +7,7 @@ import {
 } from "react-icons/fa";
 
 import countapi from "countapi-js";
+import Link from "next/link";
 
 const Footer = () => {
   countapi.hit("nnamdiogbangwo.netlify.app", "visits").then((result) => {
@@ -23,7 +24,7 @@ const Footer = () => {
           <div className="flex flex-wrap text-left lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
               <h4 className="text-3xl fonat-semibold text-blue-700">
-                Let's keep in touch!
+                Let &apos;s keep in touch!
               </h4>
               <h5 className="text-lg mt-0 mb-2 text-blue-600">
                 If you found the source code helpful, you can{" "}
@@ -79,12 +80,12 @@ const Footer = () => {
                   </span>
                   <ul>
                     <li>
-                      <a
+                      <Link
                         className="text-blue-700 hover:text-blue-800 font-semibold block pb-2 text-sm"
                         href="/"
                       >
                         About Me 📌
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <li>
