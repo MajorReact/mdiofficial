@@ -1,6 +1,8 @@
 [![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)
 [![License: FREE](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
+[SWITCH TO LIVE BRANCH](https://github.com/MajorReact/mdiofficial/tree/build-release-v1.10)
+
 #### NOTE WORTHY
 - This repository is actively being maintained
 - More information will released subsequently for adequate documentation of the project.
